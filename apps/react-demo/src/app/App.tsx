@@ -1,13 +1,11 @@
-import { MyComponent } from '@ui/react';
+import { MyInput } from '@ui/react';
 
 export function App() {
   return (
-    <div>
-      <h1>
-        <span>Hello there,</span> Welcome react-demo 👋
-        <MyComponent first="Stencil" middle="Component" last="React wrapper" />
-      </h1>
-    </div>
+    <form action="./something" method="post">
+      <MyInput name="my-input" />
+      <button type="submit">Submit</button>
+    </form>
   );
 }
 
