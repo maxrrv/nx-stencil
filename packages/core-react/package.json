@@ -17,8 +17,8 @@
     }
   },
   "dependencies": {
-    "@ui/core": "*",
-    "@stencil/react-output-target": "^0.8.2"
+    "@stencil/react-output-target": "0.7.0",
+    "@ui/core": "*"
   },
   "peerDependencies": {
     "react": "^18 || ^19",

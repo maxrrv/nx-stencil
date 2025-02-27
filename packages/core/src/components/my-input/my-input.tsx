@@ -25,7 +25,7 @@ export class MyInput {
 
   private setFormValue = () => {
     console.log('setformvalue', this.internals);
-    console.log('react-output-target-0.7.0');
+    console.log('iterator-1');
     this.internals?.setFormValue(this.value);
   };
 
