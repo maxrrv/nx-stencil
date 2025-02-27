@@ -2,7 +2,7 @@
 
 This repo contains the code for reproducing two issues with the `@stencil/react-output-target` package in an NX workspace.
 
-## Issue 1: `@stencil/react-output-target` somehow passes populates form data if built with nx instead of lerna.
+## Issue 1: `@stencil/react-output-target` somehow populates form data if built with nx instead of lerna.
 
 1. Clone the repo.
 2. Run `npm ci`.
